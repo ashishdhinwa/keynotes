@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+.loginBox input[type="email"],
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+.loginBox input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 15px;
+}
+}
+@media only screen and (min-width: 769px) {
+.loginBox input[type="email"],
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+.loginBox input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 15px;
+}
+}
+
+

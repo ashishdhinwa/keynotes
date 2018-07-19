@@ -1,0 +1,1 @@
+ <h6 style="color:white;margin-bottom:-10px;font-style:italic;margin-bottom:5px;margin-top:-5px;"><strong>(Only for MNIT Jaipur students)</strong></h6>

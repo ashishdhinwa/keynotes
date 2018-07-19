@@ -1,0 +1,150 @@
+.thumbnail img,h5{
+	display:inline;
+	color:#274743;
+}
+.thumbnail {
+	padding-top:15px;
+	height:16%;
+}
+a:hover{
+	color:gray;
+	
+}
+.col-lg-4 a:hover{
+	text-decoration:none;
+	
+}
+a:hover .thumbnail
+{
+	
+	border-width:3px;
+	border-color:green;
+}
+.codes a{
+	color:gray;
+}
+.codes a:hover
+{
+	color:gray;	
+	text-decoration:underline;
+}
+
+.share{
+	float:right;
+}
+/**THE SAME CSS IS USED IN ALL 3 DEMOS**/    
+/**gallery margins**/  
+ul.gallery{    
+margin-left: 3vw;     
+margin-right:3vw;  
+}    
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(2.5);    
+-moz-transform: scale(2.5);  
+-webkit-transform: scale(2.5);  
+-o-transform: scale(2.5);  
+transform: scale(2.5);    
+position:relative;      
+z-index:100;  
+}
+
+/**To keep upscaled images visible on mobile, 
+increase left & right margins a bit**/  
+@media only screen and (max-width: 768px) {   
+ul.gallery {      
+margin-left: 15vw;       
+margin-right: 15vw;
+}
+
+/**TIP: Easy escape for touch screens,
+give gallery's parent container a cursor: pointer.**/
+.DivName {cursor: pointer}
+}
+
+/*For vertical line-height*/
+.vl {
+    border-left: 6px solid green;
+    height:100%;
+	width:200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*The below code is the css for the footer*/
+
+@media only screen and (min-width: 991px){
+.footer_element{
+	width:100%;
+	height:20%;	
+	background-color: #101010;
+    color:#9d9d9d;
+}
+}
+@media only screen and (max-width: 990px){
+.footer_element{
+	width:100%;
+	height:25%;	
+	font-size:12px;
+	background-color: #101010;
+    color:#9d9d9d;
+}
+}
+
+
+.face{
+	font-size:32px;
+	
+}
+
+.like{
+	
+	border-style:solid;
+	font-size:23px;
+	border-radius:20%;
+	
+}
+#like_{
+	text-decoration:none;
+	color:#9d9d9d;
+	
+}
+
+
+
+
+@media only screen and (max-width: 990px){
+#staccck{
+        margin-left:55px;	
+		
+	
+	
+}
+
+}

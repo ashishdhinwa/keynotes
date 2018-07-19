@@ -1,0 +1,11 @@
+.thumbnail{
+	background:url('../pictures/notes3.gif');
+	 background-size: 100% 125%;
+	 background-repeat: no-repeat;
+}
+.thumbnail:hover{
+	border-width:2px;
+	border-color:#D66F8A;
+}
+
+

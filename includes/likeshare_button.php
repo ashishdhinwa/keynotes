@@ -1,0 +1,1 @@
+<div class="fb-like" style="position:absolute; right:10px; margin-top:10px;" data-href="https://www.facebook.com/b.tech.keynotes/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div> 

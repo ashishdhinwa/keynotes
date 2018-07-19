@@ -1,0 +1,39 @@
+
+.col-md-4,.col-sm-6{
+border-style:solid;
+}
+hr{
+	margin-top:0px;
+	
+}
+
+.modify{
+	padding-left:5px;
+}
+@media only screen and (min-width: 769px){
+		.row{
+		padding-left:200px;
+	    
+	}
+	
+	
+}
+@media only screen and (max-width: 768px){
+	.row{
+		padding-left:4px;
+		padding-top:5px;
+	    padding-right:4px;
+	}
+	.modify1{
+		margin-top:30px;
+	}
+}
+h5{
+	color:green;
+}
+a:hover{
+	cursor: pointer;
+}
+a:visited{
+	color:pink;
+}
